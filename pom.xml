@@ -71,6 +71,14 @@
                 <version>3.0.0-M3</version>
             </plugin>
 
+
+            <plugin>
+                <!-- https://mvnrepository.com/artifact/com.github.temyers/cucumber-jvm-parallel-plugin -->
+                <groupId>com.github.temyers</groupId>
+                <artifactId>cucumber-jvm-parallel-plugin</artifactId>
+                <version>5.0.0</version>
+            </plugin>
+
             <plugin>
                 <!-- https://mvnrepository.com/artifact/net.masterthought/cucumber-reporting -->
                 <groupId>net.masterthought</groupId>

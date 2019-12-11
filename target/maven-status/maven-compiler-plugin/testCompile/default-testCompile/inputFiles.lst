@@ -1,8 +1,6 @@
-/Users/fazk/Documents/Automation/testautomationbrowserstack/src/test/java/steps/MyStepdefs.java
-/Users/fazk/Documents/Automation/testautomationbrowserstack/src/test/java/browserstack/BrowserStackTestDataProvider.java
-/Users/fazk/Documents/Automation/testautomationbrowserstack/src/test/java/browserstack/BrowserStackTestSingle.java
-/Users/fazk/Documents/Automation/testautomationbrowserstack/src/test/java/pages/HomePage.java
-/Users/fazk/Documents/Automation/testautomationbrowserstack/src/test/java/runner/TestRunner.java
-/Users/fazk/Documents/Automation/testautomationbrowserstack/src/test/java/browserstack/BrowserStackTestDataProviderOriginal.java
-/Users/fazk/Documents/Automation/testautomationbrowserstack/src/test/java/steps/Hook.java
-/Users/fazk/Documents/Automation/testautomationbrowserstack/src/test/java/pages/NewsPage.java
+/Users/fazk/Documents/test/testautomationbrowserstack/src/test/java/steps/MyStepdefs.java
+/Users/fazk/Documents/test/testautomationbrowserstack/src/test/java/runner/TestRunner.java
+/Users/fazk/Documents/test/testautomationbrowserstack/src/test/java/steps/Hook.java
+/Users/fazk/Documents/test/testautomationbrowserstack/src/test/java/browserstack/BrowserStackTwo.java
+/Users/fazk/Documents/test/testautomationbrowserstack/src/test/java/pages/HomePage.java
+/Users/fazk/Documents/test/testautomationbrowserstack/src/test/java/pages/NewsPage.java

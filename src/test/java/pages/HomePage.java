@@ -16,12 +16,19 @@ public class HomePage {
     }
 
 
+
+    @FindBy(how = How.XPATH, using = "//*[@id='bbccookies-continue-button']")
+    public WebElement cookieButton;
+
     @FindBy(how = How.XPATH, using = "//*[@class='orb-nav-news']/a[@href=\"https://www.bbc.co.uk/news\"]")
     public WebElement newsButton;
 
     public void enterSearch(WebDriver driver) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 5);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.visibilityOf(cookieButton));
+        cookieButton.click();
+
         wait.until(ExpectedConditions.visibilityOf(newsButton));
         newsButton.click();
     }
