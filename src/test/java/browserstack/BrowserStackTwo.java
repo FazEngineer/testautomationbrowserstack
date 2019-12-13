@@ -16,7 +16,7 @@ public class BrowserStackTwo {
         caps.setCapability("os", System.getProperty("bs_os"));
         caps.setCapability("os_version", System.getProperty("bs_os_version"));
         caps.setCapability("browserstack.selenium_version", System.getProperty("bs_selenium_version"));
-        RemoteWebDriver driver = new RemoteWebDriver(new URL("https://fazshah2:BxRzebQGVPn1Bxthi8hT@hub-cloud.browserstack.com/wd/hub"), caps);
+        RemoteWebDriver driver = new RemoteWebDriver(new URL("https://fazshah4:aCszHcGsLzj6ssaLAnpi@hub-cloud.browserstack.com/wd/hub"), caps);
         return driver;
     }
 }
