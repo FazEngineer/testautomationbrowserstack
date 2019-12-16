@@ -1,17 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: runner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 65.305 s <<< FAILURE! - in runner.TestRunner
-feature(runner.TestRunner)  Time elapsed: 63.693 s  <<< FAILURE!
-cucumber.runtime.CucumberException: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='bbccookies-continue-button']' (tried for 10 second(s) with 500 milliseconds interval)
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='bbccookies-continue-button']' (tried for 10 second(s) with 500 milliseconds interval)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: //*[@id='bbccookies-continue-button']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.212 s <<< FAILURE! - in runner.TestRunner
+feature(runner.TestRunner)  Time elapsed: 2.813 s  <<< FAILURE!
+cucumber.runtime.CucumberException: 
+org.openqa.selenium.WebDriverException: Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.43 seconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Fazs-MacBook-Air.local', ip: 'fe80:0:0:0:881:8965:d8b7:efe6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '1.8.0_222'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 69.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190827005903, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 5752, moz:profile: C:\Windows\proxy\rust_mozpr..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 2249529e12c8fd8af431e7a124e...}
-Session ID: 2249529e12c8fd8af431e7a124ee4719634a8f88
-*** Element info: {Using=xpath, value=//*[@id='bbccookies-continue-button']}
+System info: host: 'Fazs-MacBook-Air.local', ip: 'fe80:0:0:0:1829:9302:d700:5379%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '1.8.0_222'
+Driver info: driver.version: RemoteWebDriver
+Caused by: org.openqa.selenium.WebDriverException: 
+Automate testing time expired. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.43 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Fazs-MacBook-Air.local', ip: 'fe80:0:0:0:1829:9302:d700:5379%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.1', java.version: '1.8.0_222'
+Driver info: driver.version: RemoteWebDriver
 
